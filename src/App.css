@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.types__block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.types__label {
+  display: flex;
+  gap: 5px;
+}
+
+.types__circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.custom-tooltip {
+  border: 2px solid black;
+  padding: 5px 5px;
+  background-color: white;
+}
+
